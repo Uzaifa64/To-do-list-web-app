@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+     <!-- 🔑 Meta Description -->
+  <meta name="description" content="Huzaifa Yusuf is a full-stack developer & AI innovator building next-gen web apps and intelligent systems. Discover projects, tutorials, and ideas shaping the AI era.">
+
+
+  <meta property="og:description" content="Explore Huzaifa’s world of AI, design, and full-stack innovation." />
+  <meta property="og:image" content="https://i.ibb.co/DPNBRfr0/img-1-1752527770991.jpg" alt="img-1-1752527770991" border="0"/>
+  <meta property="og:url" content="https://huzaifayusuf.netlify.app/" />
+  <meta property="og:type" content="website" />
+  
+  
+  <title>huzaifa yusuf to-do-list app</title>
+  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+  
+  <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    
+    <div class="loader-container" id="loaderContainer">
+        <div class="logo"><i class="fas fa-tasks"></i>    Huzaifa Yusuf Hussaini TO-DO-LIST app</div>
+        <div class="loader">
+            <div class="loader-bar"></div>
+        </div>
+        <div class="loading-text">Loading your TO-DO-LIST...</div>
+    </div>
+    
+    <div class="content" id="content">
+        <div class="container">
+        <header>
+            <h1><i class="fas fa-tasks"></i> To-dos</h1>
+            <div class="search-container">
+                <span class="search-icon"><i class="fas fa-search"></i></span>
+                <input type="text" id="search-input" placeholder="Search to-dos">
+            </div>
+        </header>
+        
+        
+  <div class="app-container">
+    <div class="app-header">
+      <h1></h1>
+    </div>
+    
+    <div class="input-section">
+      <input type="text" class="task-input" id="task-input" placeholder="What needs to be done?">
+      <button class="add-btn" id="add-btn">Add Task</button>
+    </div>
+    
+    <div class="tasks-section">
+      <h2 class="Tackss">Your Tasks:</h2>
+      <ul class="task-list" id="task-list">
+        <!-- Tasks will be added here dynamically -->
+      </ul>
+      <div class="empty-state" id="empty-state">
+        <p>No tasks yet. Add one above!</p>
+      </div>
+    </div>
+    
+    <div class="stats-section">
+      <span>Total: <span id="total-counter">0</span></span>
+      <span>Completed: <span id="completed-counter">0</span></span>
+      <span>Remaining: <span id="remaining-counter">0</span></span>
+    </div>
+   </div>
+  
+       
+      
+      
+      <footer>
+       <span>
+       <p>develop by </p>   <a href= "mailto: uzaifayusuf364@gmail.com"> huzaifa Yusuf Hussaini</a> | <span></span>© 2025 All Rights Reserved. Privacy Policy
+        </span>
+      </footer> 
+     
+  </div>
+  <script src="script.js">
+ 
+  </script>
+</body>
+</html>
